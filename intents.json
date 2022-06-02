@@ -1,0 +1,431 @@
+{
+   "intents":[
+      {
+         "tag":"chào",
+         "patterns":[
+            "Hi","Hello","2",
+            "Xin chào",
+			   "chào Bot"
+         ],
+         "responses":[
+            "Xin chào!Mình có thể giúp gì cho bạn?",
+            "Xin chào!Bạn cần mình hỗ trợ vấn đề gì?"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"giới thiệu",
+         "patterns":[
+            "Học viện tên gì","giới thiệu về Học viện","Tên tiếng anh của Học viện là gì",
+            "Mã trường là gì", "muốn đăng kí thi vào học viện cần ghi mã trường là gì","học viện hiện nay dùng mã trường gì",
+            "Các hệ đào tạo đại học của trường","trường đào tạo những hệ nào","loại đào tạo của trường",
+            "Học viện Tài chính là loại trường gì","học viện là trường công lập hay dân lập"
+         ],
+         "responses":[
+            "Tên trường: Học viện Tài chính\nTên tiếng Anh: Academy Of Finance (AOF)\nMã trường: HTC\nHệ đào tạo: Đại học - Sau đại học - Liên thông - Tại chức - Văn bằng 2\nLoại trường: Công lập"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"liên hệ",
+         "patterns":[
+            "Địa chỉ?","địa điểm","Địa chỉ của bạn là gì?","Mình muốn biết địa chỉ của Học viện","Học viện ở đâu",
+            "muốn liên hệ với trường cần phương thức nào","làm sao để liên hệ với trường","thông tin liên hệ của trường là gì","kết nối với trường bằng cách nào","tìm thêm thông tin của trường tại đâu","làm sao để liên hệ","thông tin liên lạc của trường là gì","phương thức liên lạc"
+         ],
+         "responses":[
+            "Học viện Tài chính có địa chỉ tại:58,Lê Văn Hiến,phường Đức Thắng, quận Bắc Từ Liêm,thành phố Hà Nội\nSĐT: 0243.8389326\nEmail: vanphonghocvien@hvtc.edu.vn\nWebsite: https://hvtc.edu.vn/\nFacebook: www.facebook.com/aof.fanpage/"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"thông tin chung",
+         "patterns":[
+            "mình muốn biết thông tin tuyển sinh năm nay","năm nay học viện tuyển sinh như thế nào","năm nay học viện tuyển sinh có gì khác các năm trước"
+         ],
+         "responses":[
+            "Bạn muốn biết thông tin tuyển sinh gì nhỉ: phương thức tuyển sinh, số lượng tuyển sinh, ngành tuyển sinh, thời gian tuyển sinh hay điểm chuẩn qua các năm"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"khóa học",
+         "patterns":[
+            "khóa học","ngành học",
+            "thông tin khóa học","học viện đào tạo những ngành nào","Năm nay học viện đào tạo bao nhiêu ngành học",
+            "Tôi cần thông tin khóa học","Những ngành học được đào tạo là gì",
+            "các ngành học viện đào tạo"
+         ],
+         "responses":[
+            "1- Ngành Tài chính-Ngân hàng\n 2-  Ngành Kế toán\n 3- Ngành Quản trị Kinh doanh.\n 4-  Ngành Hệ thống Thông tin quản lý.\n5- Ngành Ngôn ngữ Anh.\n6- Ngành Kinh tế."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"thời gian nộp hồ sơ",
+         "patterns":[
+            "hạn cuối xét tuyển học bạ là bao nhiêu","thời gian tuyển sinh của Học viện là vào khoảng nào",
+            "ngày thu hồ sơ","học viện thu hồ sơ vào thời gian nào",
+			   "lịch thu hồ sơ","thời gian xét học bạ","nộp hồ sơ vào thời gian nào",
+			   "lịch tuyển sinh",
+			   "thời gian thu hồ sơ", 
+			   "thời gian nộp hồ sơ"
+         ],
+         "responses":[
+            "Thời gian thu nhận hồ sơ HSG bậc THPT:\n\n- Thời gian đăng ký đợt 1:\n+ Đăng ký trực tuyến: Từ ngày 27/5 – 06/6/2021.\n+ Nộp qua bưu điện: Từ ngày 27/5 – 06/6/2021.\n+ Nộp trực tiếp tại Học viện: Từ ngày 29/5 – 06/6/2021.\n\n- Thời gian đăng ký đợt 2:\n+ Nộp qua bưu điện: Từ ngày 12/7 – 16/7/2021.\n+ Nộp trực tiếp tại Học viện: Từ ngày 15/7 – 18/7/2021.\n\nHồ sơ đăng ký đợt 1 và đợt 2 được xét bình đẳng như nhau"	
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"yêu cầu",
+         "patterns":[
+            "Yêu cầu đối với diện xét tuyển?",
+			   "điều kiện xét tuyển",
+			   "chứng chỉ tiếng anh để xét tuyển",
+			   "xét học bạ vào trường cần những gì",
+			   "học bạ",
+            "Yêu cầu đầu vào","điều kiện để được xét tuyển là gì"
+         ],
+         "responses":[
+            "03 năm HSG là đã đủ điều kiện để xét tuyển HSG bậc THPT (xét tuyển bằng học bạ) vào HVTC\nCác chứng chỉ Tiếng Anh quốc tế được xét đó là IELTS >= 5.5, TOEFL iBT >= 55 hoặc kết quả thi SAT >= 1050 hoặc ACT >= 22 "	
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"đối tượng",
+         "patterns":[
+            "Đối tượng tuyển sinh là gì?",
+			   "năm nay trường xét tuyển những đối tượng nào", "Những đối tượng nào được đăng kí tuyển sinh","đối tượng xét tuyển của trường là những ai","ai thuộc diện được xét tuyển vào trường"
+         ],
+         "responses":[
+            "Thí sinh đã tốt nghiệp THPT.\nHọc sinh các nước theo chương trình hợp tác, trao đổi sinh viên. "	
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"phạm vi",
+         "patterns":[
+            "phạm vi tuyển sinh là gì?",
+			   "trường xét tuyển những khu vực nào", "Người nước ngoài có được đăng kí xét tuyển vào trường không","Học viện tuyển sinh những đâu"
+         ],
+         "responses":[
+            "Tuyển sinh trên phạm vi cả nước và các nước khác. "	
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"pphương thức",
+         "patterns":[
+            "phương thức xét tuyển là gì?","phương án tuyển sinh của Học viện",
+			   "trường xét tuyển bằng cách nào ", "Làm sao để đăng kí vào trường","Cách thức nhập học cho sinh viên","Hình thức xét tuyển của Học viện là gì"
+         ],
+         "responses":[
+            "Phương thức 1: Xét tuyển thẳng và ưu tiên cộng điểm theo quy định của Bộ GD&ĐT.\nPhương 2: Xét tuyển học sinh giỏi ở bậc THPT.\nPhương 3: Xét tuyển dựa vào kết quả thi tốt nghiệp THPT năm 2022.\nPhương 4: Xét tuyển kết hợp chứng chỉ tiếng Anh quốc tế với kết quả thi tốt nghiệp THPT năm 2022.\nPhương thức 5: Xét tuyển dựa vào kết quả kỳ thi đánh giá năng lực của Đại học Quốc gia Hà Nội và đánh giá tư duy của Trường ĐH Bách khoa Hà Nội năm 2022."	
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"chỉ tiêu",
+         "patterns":[
+            "chỉ tiêu đầu vào năm nay ",
+            "số lượng tuyển sinh",
+		   	"năm nay nhà trường lấy bao nhiêu sinh viên hệ thường",
+		   	"chỉ tiêu tuyển sinh",
+		   	"số lượng tuyển sinh ",
+		   	"lấy bao nhiêu sinh viên"
+         ],
+         "responses":[
+            "Bạn muốn biết chỉ tiêu năm nào .","Cung cấp thêm thông tin về năm tuyển sinh nhé"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"2021",
+         "patterns":[
+            "2021","tuyển sinh năm 2021","năm 2021 tuyển sinh bao nhiêu","chỉ tiêu năm 2021"
+         ],
+         "responses":[
+            "Chỉ tiêu tuyển sinh các ngành trong năm 2021: \n\nĐối với chương trình chất lượng cao:700\nĐối với chương trình đại trà:3.300 "
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"2020",
+         "patterns":[
+            "2020","tuyển sinh năm 2020","năm 2020 tuyển sinh bao nhiêu","chỉ tiêu năm 2020"
+         ],
+         "responses":[
+            "Chỉ tiêu tuyển sinh các ngành trong năm 2020: \n\nĐối với chương trình chất lượng cao:750\nĐối với chương trình đại trà:3.000 "
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"năm khác",
+         "patterns":[
+            "2022","tuyển sinh năm 2017","năm 2020 tuyển sinh bao nhiêu","chỉ tiêu năm 2020",
+            "2018","2010","2006","2017-2018","2010-2018"
+         ],
+         "responses":[
+            "Rất tiếc những thông tin bạn cần hỏi của năm trên không nằm trong trí nhớ của mình. Hãy đặt câu hỏi khác nhé"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"2019",
+         "patterns":[
+            "2019","tuyển sinh năm 2019","năm 2019 tuyển sinh bao nhiêu","chỉ tiêu năm 2019"
+         ],
+         "responses":[
+            "Chỉ tiêu tuyển sinh các ngành trong năm 2019: \n\nĐối với chương trình chất lượng cao:2.000\nĐối với chương trình đại trà:2.200 "
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"điểm chuẩn",
+         "patterns":[
+            "điểm chuẩn",
+            "điểm chuẩn qua các năm",
+			   "điểm sàn",
+			   "điểm chuẩn của Học viện",
+		   	"Bao nhiêu điểm thì đỗ Học viện",
+		   	"Học viện tuyển sinh với số điểm như thế nào"
+         ],
+         "responses":[
+            "Bạn muốn biết điểm chuẩn ngành nào .","Cung cấp thêm thông tin về khoa bạn muốn biết điểm nhé" 			
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Ngôn ngữ Anh",
+         "patterns":[
+            "Ngôn ngữ Anh","Điểm chuẩn Ngôn ngữ Anh","Điểm sàn ngôn ngữ Anh qua các năm"
+         ],
+         "responses":[
+            "2019: 29.82\n2020: 32.7\n2021: 35.77" 			
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Kinh tế",
+         "patterns":[
+            "Kinh tế","Điểm chuẩn Kinh tế","Điểm sàn Kinh tế qua các năm"
+         ],
+         "responses":[
+            "2019: 21.65\n2020: 24.7\n2021: 26.35" 			
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"quản trị kinh doanh",
+         "patterns":[
+            "Quản trị kinh doanh","Điểm chuẩn Quản trị kinh doanh","Điểm sàn Quản trị kinh doanh qua các năm"
+         ],
+         "responses":[
+            "2019: 25.55\n2020: 25.5\n2021: 26.7" 			
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Tài chính ngân hàng",
+         "patterns":[
+            "Tài chính ngân hàng","Điểm chuẩn Tài chính ngân hàng","Điểm sàn Tài chính ngân hàng qua các năm"
+         ],
+         "responses":[
+            "(Khối A00,A01,D07)\n2019: 21.45\n2020: 25\n2021: 26.1\n\n(Khối D01)\n2019: 22\n2020: 25\n2021: 26.45" 			
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Kế toán",
+         "patterns":[
+            "Kế toán","Điểm chuẩn Kế toán","Điểm sàn Kế toán qua các năm"
+         ],
+         "responses":[
+            "(Khối A00,A01,D07)\n2019: 23.3\n2020: 26.2\n2021: 26.55\n\n(Khối D01)\n2019: 23\n2020: 26.2\n2021: 26.95" 			
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Hệ thống thông tin",
+         "patterns":[
+            "Hệ thống thông tin","Điểm chuẩn Hệ thống thông tin","Điểm sàn Hệ thống thông tin qua các năm",
+            "Hệ thống thông tin kinh tế","Hệ thống thông tin quản lí"
+         ],
+         "responses":[
+            "2019: 21.25\n2020: 24.85\n2021: 26.1" 			
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Kiểm toán clc",
+         "patterns":[
+            "Kiểm toán clc","Điểm chuẩn Kiểm toán clc","Điểm sàn Kiểm toán clc qua các năm",
+            "Kiểm toán","Kiểm toán chất lượng cao"
+         ],
+         "responses":[
+            "2020: 31\n2021: 35.73" 			
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Kế toán doanh nghiệp clc",
+         "patterns":[
+            "Kế toán doanh nghiệp clc","Điểm chuẩn Kế toán doanh nghiệp clc","Điểm sàn Kế toán doanh nghiệp qua các năm",
+            "Kế toán doanh nghiệp","Kế toán doanh nghiệp chất lượng cao"
+         ],
+         "responses":[
+            "2020: 30.57\n2021: 35.13" 			
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Tài chính doanh nghiệp clc",
+         "patterns":[
+            "Tài chính doanh nghiệp clc","Điểm chuẩn Tài chính doanh nghiệp clc","Điểm sàn Tài chính doanh nghiệp qua các năm",
+            "Tài chính doanh nghiệp","Tài chính doanh nghiệp chất lượng cao"
+         ],
+         "responses":[
+            "2020: 30.17\n2021: 35.7" 			
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"Hướng dẫn",
+         "patterns":[
+            "hướng dẫn lưạ chọn nguyện vọng","hướng dẫn đăng kí xét tuyển thẳng",
+            "hướng dẫn xét tuyển"
+         ],
+         "responses":[
+            "Hãy xem hướng dẫn tại website hvtc.edu.vn và theo dõi các buổi livesteam tư vấn tuyển sinh trên trang chính facebook của Học viện để biết thêm thông tin nhé" 			
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"tổ hợp",
+         "patterns":[
+            "tổ hợp xét tuyển ",
+		   	"Học viện lấy những khối thi nào",
+			   "Tổ hợp môn thi vào học viện",
+		      "Các khối thi Học viện xét tuyển",
+			   "Tổ hợp môn Học viện tuyển sinh",
+			   "Học viện xét tuyển những tổ hợp môn gì"
+         ],
+         "responses":[
+            "Khối A00(Toán, Vật lí, Hóa học)\n•Khối A01 (Toán, Vật lí, Tiếng Anh)\n•Khối D01 (Toán, Ngữ Văn, Tiếng Anh)\n•Khối D07 (Toán, Hóa học, Tiếng Anh)"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      
+      {
+         "tag":"học phí",
+         "patterns":[
+            "học phí hệ chính quy là bao nhiêu","muốn học ở Học viện cần bao nhiêu tiền",
+            "hệ thường có mức học phí như thế nào",
+			   "phí học hệ thường",
+			   "học phí của clc"
+         ],
+         "responses":[
+            "Học phí chương trình Chất lượng cao là 45 triệu đồng/năm.\nHọc phí chương trình Chuẩn là 15 triệu đồng/năm. Học phí có thể tăng hoặc giảm theo từng năm nhưng không vượt quá 10% so với năm trước đó"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"lỗi",
+         "patterns":[
+            "ádasda",
+            "........"
+         ],
+         "responses":[
+            "Xin lỗi, mình không hiểu ý bạn",
+			   "Mình cần thêm thông tin để trả lời"			
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"kết thúc",
+         "patterns":[
+            "cảm ơn",
+            "e cảm ơn ạ",
+			   "em đã biết","bye","goodbye","byebye"
+         ],
+         "responses":[
+            "Cảm ơn bạn đã quan tâm",
+			   "Hẹn gặp bạn tại Học viện"			
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"ngoài lề",
+         "patterns":[
+            "hôm nay trời đẹp quá","chán quá đi","mở nhạc cho mình nghe đi","Học viện  có câu lạc bộ nào vui không"
+         ],
+         "responses":[
+            "Rất tiếc những thông tin bạn cần biết không nằm trong hiểu biết của mình. Hãy đặt câu hỏi khác nhé"
+         ],
+         "context":[
+            ""
+         ]
+      }
+      
+      
+   ]
+}
