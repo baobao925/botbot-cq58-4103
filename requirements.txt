@@ -2,4 +2,3 @@ keras_nightly==2.5.0.dev2021032900
 numpy==1.19.5
 nltk==3.6.2
 keras==2.4.3
-python==3.6.8
